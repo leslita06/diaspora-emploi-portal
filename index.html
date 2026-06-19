@@ -43,6 +43,16 @@ header{background:#fff;border-bottom:1px solid var(--line);position:sticky;top:0
 .stat span{font-size:12.5px;color:var(--muted)}
 .stat.accent b{color:var(--coral)}
 
+/* CTA matching */
+.cta{margin-top:24px;background:linear-gradient(100deg,var(--purple),var(--coral));border-radius:18px;
+  padding:20px 24px;display:flex;align-items:center;justify-content:space-between;gap:18px;flex-wrap:wrap;
+  color:#fff;box-shadow:0 10px 26px rgba(104,40,144,.20)}
+.cta-txt b{font-family:'Poppins';font-weight:700;font-size:17.5px;display:block;margin-bottom:4px}
+.cta-txt span{font-size:13.5px;opacity:.93;max-width:580px;display:block;line-height:1.45}
+.cta-btn{font-family:'Poppins';font-weight:700;font-size:15px;text-decoration:none;background:#fff;
+  color:var(--purple);border-radius:30px;padding:13px 26px;white-space:nowrap;transition:.14s;flex-shrink:0}
+.cta-btn:hover{transform:translateY(-1px);box-shadow:0 8px 18px rgba(0,0,0,.18)}
+
 /* Filters */
 .filters{position:sticky;top:74px;z-index:20;background:var(--cream);padding:16px 0 12px;border-bottom:1px solid var(--line)}
 .frow{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
@@ -104,6 +114,13 @@ footer b{color:var(--ink)}
     <div class="stat"><b>16</b><span>secteurs</span></div>
     <div class="stat"><b>4</b><span>sources agrégées</span></div>
     <div class="stat"><b>19 juin 2026</b><span>dernière mise à jour</span></div>
+  </div>
+  <div class="cta">
+    <div class="cta-txt">
+      <b>✨ Vous avez un CV ou un profil LinkedIn ?</b>
+      <span>Recevez en quelques secondes vos offres les mieux adaptées, comment vous positionner, et vos lettres de motivation prêtes à envoyer.</span>
+    </div>
+    <a class="cta-btn" href="https://intent-tampa-domains-publications.trycloudflare.com" target="_blank" rel="noopener">Analyser mon profil →</a>
   </div>
 </div>
 
